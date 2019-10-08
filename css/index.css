@@ -39,9 +39,88 @@ right: 0;
 
 }
 
+/* main*/
+
 .header__nav {
 
 position: absolute;
 right: 0;
 bottom: 0;
+}
+
+.busca {
+
+padding: 8px;
+width: 230px;
+box-sizing: border-box;
+background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);  /* mudar cor do botao: https://webgradients.com/*/
+border-radius: 5px 5px 0 0 ;
+/*para alterar o raio da borda, deixar ela arredondada por exemplo*/
+
+
+
+
+}
+.busca__campo {
+
+
+border-radius: 7px 7px 0 0;
+border: none;
+padding: 2px 5px;
+width: 88%;
+margin-right: 5px;
+
+}
+
+.busca__botao {
+
+background-image: url(../img/busca.png);
+background-color: unset;
+border: none;
+background-repeat: no-repeat;
+width: 16px;
+height: 16px;
+background-size: contain;
+vertical-align: middle;
+cursor: pointer;
+}
+
+.departamentos {
+
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);  /* mudar cor do botao: https://webgradients.com/*/
+margin-top: 8px;
+width: 230px;
+padding: 2px;
+box-sizing: border-box;
+
+
+}
+
+.nav__produtos a {
+
+text-decoration: none;
+color: 333;
+
+}
+
+.departamentos__titulo {
+
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+.nav__produtos li{
+
+margin: 5px 0;
+
+
+}
+
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/   para flexbox */
+
+.flex-container {
+
+display: flex;
+justify-content: space-between;
+
 }
