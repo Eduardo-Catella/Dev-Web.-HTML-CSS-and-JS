@@ -1,0 +1,49 @@
+.container {
+
+width: 940px;
+margin: 0 auto;
+
+
+
+}
+
+.header{
+
+
+    position: relative;
+}
+
+
+
+.header__sacola {
+display : inline-block;
+background-image: url(../img/sacola.png);
+background-repeat: no-repeat;
+background-position: right;
+text-align: right;
+padding-right: 35px;
+font-size: 14px;
+background-size: contain;
+position: absolute;
+top: 0;
+right: 0;
+
+}
+
+.nav__link-list li{
+
+    color: #036;
+    display: inline-block;
+    margin-left: 5px;
+
+
+}
+
+.header__nav {
+
+position: absolute;
+right: 0;
+bottom: 0;
+
+
+}
