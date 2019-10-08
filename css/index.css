@@ -1,3 +1,15 @@
+body {
+
+font-family: 'open sans', sans-serif;
+
+}
+
+
+
+
+
+
+
 .container {
 
 width: 940px;
@@ -122,5 +134,21 @@ margin: 5px 0;
 
 display: flex;
 justify-content: space-between;
+
+}
+
+/*https://fonts.google.com/*/ 
+
+.painel {
+
+width: 48%;
+
+
+}
+
+.painel__produtos {
+
+flex-wrap: wrap;
+
 
 }
