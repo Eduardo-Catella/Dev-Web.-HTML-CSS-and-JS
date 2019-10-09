@@ -5,16 +5,10 @@ font-family: 'open sans', sans-serif;
 }
 
 
-
-
-
-
-
 .container {
 
 width: 940px;
 margin: 0 auto;
-
 
 
 }
@@ -127,7 +121,6 @@ box-sizing: border-box;
 
 text-decoration: none;
 color: 333;
-
 }
 
 .departamentos__titulo {
@@ -184,6 +177,7 @@ width: 140px;
 .painel__produtos img {
 
 width: 100%;
+transition: 1s;
 
 }
 .painel__titulo {
@@ -235,3 +229,108 @@ background-image: url(../img/twitter.png);
 
     background-image: url(../img/googleplus.png);
 }
+
+.nav__produtos li {
+margin: 5px 0;
+padding: 5px 8px;
+transition: 1s;
+}
+
+.nav__produtos li:hover {
+
+background-color: whitesmoke;
+border : 1px solid;
+transition: 1s;
+
+}
+
+.produtos__camisas {
+
+display: none;
+transition: 1s;
+
+}
+
+.nav__produtos li:hover .produtos__camisas {
+
+
+display: block;
+transition: 1s;
+}
+.painel__produtos img:hover{
+
+    transform: scale(1.1) translate(0, 10px) rotate(8deg) skew(5deg);
+    transition: 1s;
+
+}
+
+@media(max-width:939px) {
+.container{
+
+width: 100%;
+
+
+}
+
+.header{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.header__sacola{
+
+    display: none;
+}
+
+.header__nav {
+
+    position: static;
+}
+
+.nav__link-list {
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+
+}
+
+.nav__link-list li {
+
+margin-bottom: 5px;
+
+}
+
+/*main*/
+
+.section {
+
+flex-direction: column;
+
+
+
+}
+
+.busca, .departamentos {
+
+
+    width: inherit;
+}
+
+.section__banner {
+
+
+    width: 100%;
+}
+
+.painel {
+
+    width: 90%;
+}
+}
+
+@media(max-width: 900px)
