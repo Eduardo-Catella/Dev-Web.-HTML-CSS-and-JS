@@ -19,6 +19,21 @@ margin: 0 auto;
 
 }
 
+.flex-container {
+
+    display: flex;
+    justify-content: space-between;
+
+    
+    }
+
+    .flex-container--meio {
+
+align-items: center;
+
+
+    }
+
 .header{
 
 
@@ -130,20 +145,27 @@ margin: 5px 0;
 
 /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/   para flexbox */
 
-.flex-container {
-
-display: flex;
-justify-content: space-between;
-
-}
 
 /*https://fonts.google.com/*/ 
 
 .painel {
 
 width: 48%;
+padding: 8px 5px 14px;
+box-sizing: border-box;
+box-shadow: -10px 10px 5px rgb(0, 0, 0, 0.3);
+}
+
+.painel--novidades{
 
 
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+}
+
+.painel--mais-vendidos{
+
+
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
 }
 
 .painel__produtos {
@@ -151,4 +173,65 @@ width: 48%;
 flex-wrap: wrap;
 
 
+}
+
+.painel__produtos figure{
+
+width: 140px;
+
+}
+
+.painel__produtos img {
+
+width: 100%;
+
+}
+.painel__titulo {
+
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+
+.painel__titulo::before {
+content: '';
+width: 16px;
+height: 16px;
+display: inline-block;
+border-radius: 50%;
+background-color: black
+}
+.footer {
+
+background-image: url(../img/fundo-rodape.png);
+margin-top: 8px;
+padding: 10px;
+}
+
+.footer_redes-sociais a{
+
+width: 32px;
+height: 32px;
+display: inline-block;
+text-indent: -9999px;
+margin: 2px 2px;
+}
+
+.footer_redes-sociais a[href*="facebook.com"] {
+
+background-image: url(../img/facebook.png);
+
+
+}
+
+.footer_redes-sociais a[href*="twitter.com"] {
+
+background-image: url(../img/twitter.png);
+
+
+}
+
+.footer_redes-sociais a[href*='orkut'] {
+
+    background-image: url(../img/googleplus.png);
 }
