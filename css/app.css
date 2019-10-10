@@ -1,0 +1,298 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* icons*/
+
+.icon--beer {
+  background-image: url(../img/pint.svg);
+}
+
+.icon--fine {
+  background-image: url(../img/growth.svg);
+}
+
+.icon--cafe {
+  background-image: url(../img/home.svg);
+}
+
+.icon--nearby {
+  background-image: url(../img/home.svg);
+}
+.icon--food {
+  background-image: url(../img/fast-food.svg);
+}
+.icon--pizza {
+  background-image: url(../img/pizza-slice.svg);
+}
+
+.icon--repeat {
+  background-image: url(../img/growth.svg);
+}
+
+.icon--rep2 {
+  background-image: url(../img/pint.svg);
+}
+.icon--rep3 {
+  background-image: url(../img/pint.svg);
+}
+
+.icon--rep4 {
+  background-image: url(../img/pint.svg);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex--wrap {
+  flex-wrap: wrap; /* somente para quebra de linha, justify content usar na UL*/
+}
+
+.header__titulo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 1rem 0 2rem;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+.principal {
+  padding: 5.5rem 2rem;
+  background-color: whitesmoke;
+}
+
+.cards__card {
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
+  width: 8.5rem;
+  height: 9rem;
+  margin-top: 1rem;
+  text-align: center;
+  background-color: white;
+  box-sizing: border-box;
+  padding-top: 6rem;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  background-repeat: no-repeat;
+  background-size: 3.5rem;
+  background-position: top 1.5rem center;
+}
+
+.cards {
+  justify-content: space-between;
+}
+
+.cards__card h2 {
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+}
+
+.cards__card p {
+  color: #c0c0c0;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+}
+
+.footer__abas {
+  justify-content: space-between;
+  padding: 0 2rem;
+  font-size: 0.6rem;
+  color: #aaa;
+}
+
+.footer__abas a {
+  display: inline-block;
+  width: 3rem;
+  height: 3.7rem;
+  padding-top: 3.2rem;
+  box-sizing: border-box;
+  background-size: 1.7rem;
+  background-position: center;
+}
+
+.icon--home {
+  background-image: url(../img/home.svg);
+  background-repeat: no-repeat;
+}
+
+.icon--discover {
+  background-image: url(../img/iconmonstr-map-8.svg);
+  background-repeat: no-repeat;
+}
+
+.icon--bookmark {
+  background-image: url(../img/iconmonstr-check-mark-13.svg);
+  background-repeat: no-repeat;
+}
+
+.icon--top {
+  background-image: url(../img/iconmonstr-fast-food-4.svg);
+  background-repeat: no-repeat;
+}
+
+/* https://iconmonstr.com/ */
+
+.icon--profile {
+  background-image: url(../img/iconmonstr-user-15.svg);
+  background-repeat: no-repeat;
+}
+
+
+/* media para o código ficar compativel com todas resoluções e dispositivos*/
+
+@media (min-width: 608px) {
+  .header__titulo {
+    font-size: 2.3rem;
+  }
+
+  .principal {
+    padding: 5.5rem 2rem 7.5rem;
+  }
+
+  .cards__card {
+    width: 10.5rem;
+    height: 11rem;
+    padding-top: 7rem;
+    font-size: 1rem;
+    background-size: 4.5rem;
+  }
+
+  .footer__abas {
+    font-size: 1rem;
+  }
+
+  .footer__abas a {
+    width: 5rem;
+    height: 5.7rem;
+    padding-top: 3.4rem;
+    background-size: 2.4rem;
+  }
+}
+
+@media (min-width: 736px) {
+  .header__titulo {
+    font-size: 2.7rem;
+  }
+
+  .cards__card {
+    width: 11.5rem;
+    height: 12rem;
+    padding-top: 8rem;
+    font-size: 1.2rem;
+    background-size: 5.5rem;
+  }
+
+  .footer__abas {
+    font-size: 1.2rem;
+  }
+
+  .footer__abas a {
+    width: 6rem;
+    height: 6rem;
+    padding-top: 4rem;
+    background-size: 2.8rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header__titulo {
+    font-size: 2.3rem;
+  }
+
+  .principal {
+    padding: 5.5rem 2rem 7.5rem;
+  }
+
+  .cards__card {
+    width: 14.5rem;
+    height: 11rem;
+    padding-top: 7rem;
+    font-size: 1rem;
+    background-size: 6.5rem;
+    margin-top: 2.5rem;
+  }
+
+  .footer__abas {
+    font-size: 1rem;
+  }
+
+  .footer__abas a {
+    width: 5rem;
+    height: 5.7rem;
+    padding-top: 3.4rem;
+    background-size: 2.4rem;
+  }
+}
+@media (min-width: 1440px) {
+  .header__titulo {
+    font-size: 5rem;
+  }
+
+  .principal {
+    padding: 5.5rem 2rem 7.5rem;
+  }
+
+  .cards__card {
+    width: 14.5rem;
+    height: 16rem;
+    padding-top: 10rem;
+    background-size: 8rem;
+  }
+
+  .footer__abas {
+    font-size: 1rem;
+  }
+
+  .footer__abas a {
+    width: 5rem;
+    height: 5.7rem;
+    padding-top: 3.4rem;
+    background-size: 2.4rem;
+  }
+}
+
+@media (min-width: 1366px) {
+  .header__titulo {
+    font-size: 5rem;
+  }
+
+  .principal {
+    padding: 5.5rem 2rem 7.5rem;
+  }
+
+  .cards__card {
+    width: 16rem;
+    height: 18rem;
+    padding-top: 12rem;
+    background-size: 10rem;
+    transform: translate(0);
+    transition: transform 1s;
+  }
+
+  .footer__abas {
+    font-size: 1rem;
+  }
+
+  .footer__abas a {
+    width: 5rem;
+    height: 5.7rem;
+    padding-top: 4.5rem;
+    background-size: 2.4rem;
+  }
+
+  .cards__card:hover {
+    transform: translate(0, 5px);
+    transition: 1s;
+  }
+}
