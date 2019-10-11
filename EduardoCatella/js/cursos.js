@@ -14,3 +14,30 @@ function evento(elemento) {
   cursos.innerHTML = contadodeCursos + "curso(s)";
   tempo.innerHTML = contadorhoras + "h";
 }
+
+function matricula() {
+
+  if (contadodeCursos === 0){
+
+  alert ('selecione um curso!')
+}
+
+else if (contadodeCursos===1) {
+
+
+  alert('Você esta matriculado em' + contadodeCursos+ 'curso(s)')
+}
+
+else if (contadodeCursos>1) {
+
+
+  alert('Você esta matriculado em' + contadodeCursos+ 'curso(s)')
+
+}
+
+else {
+
+  alert('matricula confirmada')
+}
+}
+
