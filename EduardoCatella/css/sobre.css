@@ -1,0 +1,59 @@
+body {
+
+color: #333333;
+font-family: 'lucida sans unicode' , 'Lucida Grande', sans-serif;
+width: 940px;
+margin: auto
+}
+
+h1{
+
+
+    color:salmon;
+    background-image: url(../img/sobre-background.jpg);
+    padding: 10px;
+
+}
+
+h2 {
+border: 2px solid; color: #333333;
+
+}
+figure{
+
+    background-color: rgba(128, 128, 128, 0.158);
+    border: 1px ;
+    font-style: italic;
+    text-align: center
+}
+
+p{
+padding: 0 45px;
+text-indent: 15px;
+text-align: justify;
+}
+
+#centrodistribuição {
+
+width: 550px;
+margin-right: auto;
+margin-left: auto;
+
+
+}
+
+footer{
+
+color: #777;
+margin: 30px 0;
+padding: 30px 0;
+}
+
+footer img{
+
+margin-right: 30px;
+vertical-align: middle;
+width: 94px;
+
+
+}
